@@ -78,7 +78,7 @@ gulp.task('browser-sync', function () {
 
 // Deploy to github pages
 gulp.task('deploy-pages', function () {
-  return gulp.src("./build/**/*")
+  return gulp.src("build/**/*")
     .pipe(deploy());
 });
 
