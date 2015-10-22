@@ -21,10 +21,3 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-58087941-1', 'auto');
 ga('send', 'pageview');
-
-(function(e,t,n){
-var config = {
-    key: "051e0d90f470f3c04d5db053a6ea71f7",
-    anonymous: true
-};
-var i;var s=e.getElementsByTagName(t)[0];if(e.getElementById(n)){return}i=e.createElement(t);i.id=n;i.src="https://widget.goinside.co/widget.js";i.type="text/javascript";i.async=true;i.onload=i.onreadystatechange=function(){var e=this.readyState;if(e&&e!="complete"&&e!="loaded"){return}try{var t=new Inside;t.init(config)}catch(n){}};s.parentNode.insertBefore(i,s)})(document,"script","inside-js");
